@@ -3,7 +3,7 @@
         <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--lien meta responsive-->
-            <link rel="stylesheet" href="css/styles.css" /> <!--liaison avec le css-->
+            <link rel="stylesheet" href="./.public/css/style.css" /> <!--liaison avec le scss-->
             <script src="https://kit.fontawesome.com/11a54c0fc8.js" crossorigin="anonymous"></script>
           
 
@@ -30,6 +30,19 @@
                         <p>Paris,Belleville</p>
                     </div>
            </header>
+           <div class="zone1"> 
+
+            <div class="carre"></div>
+
+           </div>
+
+
+           <div class="zone2"> 
+
+            <div class="carre"></div>
+
+           </div>
+
 
            <section class="reserver">
                <div class="container">
@@ -71,9 +84,9 @@
         <section class="restaurants">
             <h2 class="restaurants_title"></h2>
 
-            <div class="restaurants_cards">
-                <div class="restaurants_card-image">
-                   <a href="pages_menu/la-palette-du-gout"></a>
+            <div class="restaurants_cards"><!--correspon au 4carte restaurant proposer-->
+                <div class="restaurants_card-image"><!--correspond a un carte de restaurant-->
+                   <a href="pages_menu/la-palette-du-gout.html"><!--me ramene a la page menu du restaurant-->
                    <div class="restaurants_card">
                        <div class="restaurants_card-image">
                            <div class="restaurants_card-new">
@@ -86,18 +99,89 @@
                                        <div class="restaurant_block_nom">la-palette-du-gout</div>
                                        <div class="restaurant_block_ville">Ménilmontant</div>
                                    </div>
-                    </div>
+                                </div>
                 </div>
+                    </a>
 
+                    <a href="pages_menu/la-note-enchantee.html">
+                        <div class="restaurants_card">
+                            <div class="restaurants_card-image">
+                                <div class="restaurants_card-new">
+                                    <p>Nouveau</p>
+                                    </div>
+                                    <img src="images/restaurants/restaurant_2.jpg" alt="la-note-enchantee">
+                                    </div>
+                                    <div class="restaurant_block">
+                                        <div class="restaurant_block_info">
+                                            <div class="restaurant_block_nom">la-note-enchantée</div>
+                                            <div class="restaurant_block_ville">Charonne</div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </a>
 
+                    <a href="pages_menu/a-la-francaise.html">
+                        <div class="restaurants_card">
+                            <div class="restaurants_card-image">
+                                <div class="restaurants_card-new">
+                                    <p>Nouveau</p>
+                                    </div>
+                                    <img src="images/restaurants/restaurant_3.jpg" alt="a-la-francaise">
+                                    </div>
+                                    <div class="restaurant_block">
+                                        <div class="restaurant_block_info">
+                                            <div class="restaurant_block_nom">A la française</div>
+                                            <div class="restaurant_block_ville">Cité Rouge</div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </a>
 
-
-
-
-
-
+                    <a href="pages_menu/le-delice-des-sens.html">
+                        <div class="restaurants_card">
+                            <div class="restaurants_card-image">
+                                <div class="restaurants_card-new">
+                                    <p>Nouveau</p>
+                                    </div>
+                                    <img src="images/restaurants/restaurant_3.jpg" alt="le-delice-des-sens">
+                                    </div>
+                                    <div class="restaurant_block">
+                                        <div class="restaurant_block_info">
+                                            <div class="restaurant_block_nom">Le Délice des Sens</div>
+                                            <div class="restaurant_block_ville">Folie-Méricourt</div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </a>
+                </div>
         </section>
 
+        <!--Footer-->
 
+        <footer class="footer">
+            <div class="footer"></div>
+            <div class="footer__bloc">
+                <div class="logo">
+                    <a href="index.html">Ohmyfood</a>
+                    </div>
 
-        </body>
+                <div class="footer__bloc-links">
+                    <div class="footer__bloc-link">
+                        <i class="fas fa-utensils"></i>
+                        <h3 class="footer__bloc-link__titre">Proposer un restaurant</h3>
+                    </div>
+                    <div class="footer__bloc-link">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3 class="footer__bloc-link__titre">Devenir partenaire</h3>
+                    </div>
+                    <div class="footer__bloc-link">
+                      <h3 class="footer__bloc-link__titre">Mentions Légales</h3>
+                    </div>
+                    <div class="footer__bloc-link">
+                        <h3 class="footer__bloc-link__titre">Contact</h3>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    </html>

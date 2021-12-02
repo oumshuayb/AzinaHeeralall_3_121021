@@ -1,0 +1,19 @@
+{
+  "name": "p3_heeralall_azina",
+  "version": "1.0.0",
+  "description": "projet3 openclassroom",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:.public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oumshuayb/AzinaHeeralall_3_121021.git"
+  },
+  "author": "Heeralall Azina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oumshuayb/AzinaHeeralall_3_121021/issues"
+  },
+  "homepage": "https://github.com/oumshuayb/AzinaHeeralall_3_121021#readme"
+}
